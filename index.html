@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Abbu Voice</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="top-header">
+    <div class="logo">
+      <div class="logo-icon">🎙️</div>
+
+      <div>
+        <h1>Abbu Voice</h1>
+        <p>Voice to Bangla</p>
+      </div>
+    </div>
+
+    <div class="online">
+      <span></span>
+      Ready
+    </div>
+  </header>
+
+
+  <main class="container">
+
+    <section class="hero">
+      <h2>🎙️ আব্বু কথা বলুন</h2>
+
+      <p>
+        আপনার কথা বলুন, আমরা সেটাকে বাংলায় লেখায় পরিণত করব।
+      </p>
+    </section>
+
+
+    <section class="voice-card">
+
+      <button id="micBtn" class="mic-button">
+        🎙️
+      </button>
+
+      <div id="status" class="status">
+        মাইক্রোফোন চালু করতে চাপ দিন
+      </div>
+
+      <div class="line"></div>
+
+
+      <div class="text-header">
+
+        <div>
+          <h3>📝 বাংলা লেখা</h3>
+          <p>আপনার বলা কথাগুলো এখানে দেখা যাবে</p>
+        </div>
+
+        <div id="wordCount" class="count">
+          0 শব্দ
+        </div>
+
+      </div>
+
+
+      <textarea
+        id="textBox"
+        placeholder="এখানে আব্বুর কথা লেখা হবে..."
+      ></textarea>
+
+
+      <div class="buttons">
+
+        <button id="copyBtn" class="copy-btn">
+          📋 Copy
+        </button>
+
+        <button id="clearBtn" class="clear-btn">
+          🗑️ Clear
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <section class="tips">
+
+      <h3>💡 কীভাবে ব্যবহার করবেন?</h3>
+
+      <div class="tip">
+        <b>1</b>
+        <span>🎙️ মাইক্রোফোন বাটনে চাপ দিন</span>
+      </div>
+
+      <div class="tip">
+        <b>2</b>
+        <span>🗣️ বাংলায় কথা বলুন</span>
+      </div>
+
+      <div class="tip">
+        <b>3</b>
+        <span>📝 কথা লেখা হয়ে যাবে</span>
+      </div>
+
+      <div class="tip">
+        <b>4</b>
+        <span>📋 Copy চাপ দিয়ে লেখা কপি করুন</span>
+      </div>
+
+    </section>
+
+
+    <footer>
+      Made with ❤️ for Abbu
+    </footer>
+
+  </main>
+
+
+  <div id="toast" class="toast">
+    লেখা কপি হয়েছে ✅
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
